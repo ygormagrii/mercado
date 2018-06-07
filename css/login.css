@@ -1,6 +1,6 @@
 body
 {
-    background: url('http://farm3.staticflickr.com/2832/12303719364_c25cecdc28_b.jpg') fixed;
+    background: url(https://www.tagout.com.br/img/diferenciais.jpg) fixed;
     background-size: cover;
     padding: 0;
     margin: 0;
@@ -137,7 +137,7 @@ form.login a:hover
     margin: 0 auto;
     width: 293px;
     position: relative;
-    margin-top: 23%;
+    margin-top: 15%;
     z-index: 999;
     background: #FFFFFF;
     padding: 20px 15px;
@@ -156,7 +156,7 @@ form.login a:hover
     margin: 0 auto;
     width: 250px;
     position: relative;
-    margin-top: 23%;
+    margin-top: 15%;
     z-index: 999;
     background: #FFFFFF;
     padding: 20px 15px;

@@ -1,14 +1,10 @@
-<html>
-    <head>
-	    <link rel="stylesheet" href="<?=base_url('css/bootstrap.css')?>">
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
-    </head>
 
-    <body>
-    	<div class="container">
-        <h2><?= $produto["nome"] ?></h2><br>
-        Preço: <?= $produto["preco"] ?><br>
-        <?= auto_typography($produto["descricao"]) ?><br>
-        </div>
-    </body>    
-</html>
+<?= anchor('produtos/','< VOLTAR', array("class" => "btn btn-primary"))?>
+<h2><?= $produto["nome"] ?></h2><br>
+
+
+Última edição: <?= $produto["data"] ?><br>
+<?= auto_typography($produto["descricao"]) ?><br>
+<?= $produto["foto"]; ?>
+
+<br />

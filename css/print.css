@@ -1,0 +1,43 @@
+* {
+background:transparent !important;
+color:#000 !important;
+text-shadow:none !important;
+filter:none !important;
+-ms-filter:none !important;
+}
+
+body {
+margin:0;
+padding:0;
+line-height: 1.4em;
+}
+
+@page {
+margin: 0.5cm;
+}
+
+nav, footer, video, audio, object, embed, button { 
+display:none; 
+}
+
+.print {
+display:block !important;
+}
+
+.no-print { 
+display:none; 
+}
+
+.title-print{font-size: 18px !important; }
+
+input{border: none;}
+
+th{text-align: center;font-weight: bold;}
+
+img{margin-left: 0px !important;}
+
+.vendorListHeading th {
+   background-color: black !important;
+   -webkit-print-color-adjust: exact;
+   color: white !important;   
+}

@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'mercado',
+	'hostname' => 'lotopro_sistem.mysql.dbaas.com.br',
+	'username' => 'lotopro_sistem',
+	'password' => 'Insight@123',
+	'database' => 'lotopro_sistem',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

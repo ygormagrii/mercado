@@ -49,7 +49,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'produtos';
+$route['default_controller'] = 'dashboard';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['produtos/(:num)'] = 'produtos/mostra/$1';
+$route['produtos/(:num)/(:num)'] = 'produtos/atualiza_produto/$1/$2';
+$route['produtos/edit(:num)'] = 'produtos/form_editar/$1';
+$route['usuarios/(:num)'] = 'usuarios/formulario_senha/$1';
+$route['procedimentos/(:num)'] = 'procedimentos/mostra/$1';
+$route['analises/(:num)'] = 'analises/mostra/$1';
+$route['idt/(:num)'] = 'idt/mostra/$1';
+$route['pdt/(:num)'] = 'pdt/mostra/$1';
+$route['treinamentos/(:num)'] = 'treinamentos/mostra/$1';
+$route['usuarios/editar/(:num)'] = 'usuarios/form_editar/$1';
+$route['procedimentos/auditorias/(:num)'] = 'procedimentos/audita/$1';
+$route['procedimentos/treinamentos/(:num)'] = 'procedimentos/treinamento/$1';
+$route['auditorias/importar/(:num)'] = 'auditorias/importar/$1';
+$route['treinamentos/importar/(:num)'] = 'treinamentos/importar/$1';
